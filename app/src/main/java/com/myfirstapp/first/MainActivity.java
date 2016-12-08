@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //MyExample mE = new MyExample();
-
+        String something = "Nothing";
         //mE.doSomethingNew();
         for (int i = 0; i < 3; i++) {
             Log.i(TAG, "onCreate i = " + i);
