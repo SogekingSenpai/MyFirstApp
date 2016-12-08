@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         //mE.doSomethingNew();
         for (int i = 0; i < 3; i++) {
             Log.i(TAG, "onCreate i = " + i);
+            Log.i(TAG, "onCreate: This is What we 're");
         }
         SomethingdoDo();
     }
